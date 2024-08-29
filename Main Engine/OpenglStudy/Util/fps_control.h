@@ -70,8 +70,8 @@ public:
 			frames = 0;
 			start_t = last_t;
 
-			if (!auto_adjust) return;
-			adjust_frame_time(diff);
+			/*if (!auto_adjust) return;
+			adjust_frame_time(diff);*/
 		}
 	}
 

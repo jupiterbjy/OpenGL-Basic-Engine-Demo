@@ -209,9 +209,9 @@ int main()
             glDrawArrays(GL_TRIANGLES, 0, int(meshes[idx].size / 6));
         }
 
-        glReadPixels(0, 0, mWIDTH, mHEIGHT, GL_RGBA, GL_UNSIGNED_BYTE, pBuf);
+        // glReadPixels(0, 0, mWIDTH, mHEIGHT, GL_RGBA, GL_UNSIGNED_BYTE, pBuf);
 
-        fps_ctrl.wait();
+        // fps_ctrl.wait();
 
         // ...All drawing calls done, swap back(Drawing buffer) & front buffer.
         glfwSwapBuffers(window);
